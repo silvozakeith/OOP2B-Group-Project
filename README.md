@@ -1,4 +1,4 @@
-# PrintSync - Paper & Ink Order Station
+# PrintSync
 
 PrintSync is a desktop order management application built with Python and PyQt6. It provides an order submission interface, live price calculator, job status tracker, and rate configuration panel.
 
@@ -9,5 +9,3 @@ PrintSync is a desktop order management application built with Python and PyQt6.
 - `admin_screen.py` - Order management queue dashboard and base pricing editor.
 - `dialogs.py` - Custom dialog windows for order confirmations, alerts, and status changes.
 - `style.qss` - Application-wide QSS stylesheet.
-
-## Quick Start# OOP2B-Group-Project
