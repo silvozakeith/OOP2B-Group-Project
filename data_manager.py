@@ -1,10 +1,8 @@
 import json
 import os
 
-
 ORDERS_FILE = "orders.json"
 PRICES_FILE = "prices.json"
-
 
 DEFAULT_PRICES = {
     'paper': 2.0,
@@ -15,8 +13,6 @@ DEFAULT_PRICES = {
     'binding': 30.0,
     'lamination': 15.0,
 }
-
-
 
 
 def load_prices() -> dict:
@@ -30,13 +26,9 @@ def load_prices() -> dict:
     return DEFAULT_PRICES.copy()
 
 
-
-
 def save_prices(prices: dict):
     with open(PRICES_FILE, 'w', encoding='utf-8') as f:
         json.dump(prices, f, indent=4)
-
-
 
 
 def load_orders() -> list:
@@ -49,21 +41,15 @@ def load_orders() -> list:
     return []
 
 
-
-
 def save_orders(orders: list):
     with open(ORDERS_FILE, 'w', encoding='utf-8') as f:
         json.dump(orders, f, indent=4)
-
-
 
 
 def add_order(order: dict):
     orders = load_orders()
     orders.append(order)
     save_orders(orders)
-
-
 
 
 def update_order_status(order_id: str, new_status: str):
