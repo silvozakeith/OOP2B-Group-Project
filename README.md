@@ -8,4 +8,29 @@ PrintSync is a desktop order management application built with Python and PyQt6.
 - `user_screen.py` - Order entry form, specification selectors, and price calculation panel.
 - `admin_screen.py` - Order management queue dashboard and base pricing editor.
 - `dialogs.py` - Custom dialog windows for order confirmations, alerts, and status changes.
+- `data_manager.py` - Data persistence layer for order histories and rate rules.
 - `style.qss` - Application-wide QSS stylesheet.
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3.x
+- **GUI Framework:** PyQt6 (Qt Style Sheets)
+- **Storage Layer:** Local File Persistence (`data_manager.py`)
+- **Binary Packager:** PyInstaller
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/PrintSync.git](https://github.com/your-username/PrintSync.git)
+cd PrintSync
+
+# Install required dependencies
+pip install PyQt6
+
+# Run the application
+python main.py
+
+# (Optional) Build standalone Windows executable (.exe)
+pip install pyinstaller
+pyinstaller --noconsole --onefile main.py
