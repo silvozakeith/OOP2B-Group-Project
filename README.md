@@ -22,5 +22,3 @@ PrintSync is a desktop order management application built with Python and PyQt6.
 
 * **Developer:** Keith Nicole B. Silvoza (CPE21S4)
 * **Course:** CPE 009B - Object-Oriented Programming 2
-* **Instructor:** Engr. Jimlord M. Quejado
-* **Institution:** Technological Institute of the Philippines (TIP) - Quezon City[cite: 8, 22]
