@@ -18,19 +18,9 @@ PrintSync is a desktop order management application built with Python and PyQt6.
 - **Storage Layer:** Local File Persistence (`data_manager.py`)
 - **Binary Packager:** PyInstaller
 
-## 🚀 Getting Started
+## 👨‍💻 Author & Course Info
 
-```bash
-# Clone the repository
-git clone [https://github.com/your-username/PrintSync.git](https://github.com/your-username/PrintSync.git)
-cd PrintSync
-
-# Install required dependencies
-pip install PyQt6
-
-# Run the application
-python main.py
-
-# (Optional) Build standalone Windows executable (.exe)
-pip install pyinstaller
-pyinstaller --noconsole --onefile main.py
+* **Developer:** Keith Nicole B. Silvoza (CPE21S4)
+* **Course:** CPE 009B - Object-Oriented Programming 2
+* **Instructor:** Engr. Jimlord M. Quejado
+* **Institution:** Technological Institute of the Philippines (TIP) - Quezon City[cite: 8, 22]
