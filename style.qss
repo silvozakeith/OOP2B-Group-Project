@@ -1,5 +1,5 @@
 QMainWindow, QDialog {
-    background-color: #f1f5f9;
+  background-color: #f1f5f9;
     color: #1e293b;
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
